@@ -1,6 +1,6 @@
 // Offline cache for the CIS-DF Trainer (ServiceNow CIS Data Foundations).
 // Bump CACHE version whenever index.html or the icons change to force an update.
-const CACHE = 'cis-df-trainer-v4';
+const CACHE = 'cis-df-trainer-v5';
 const ASSETS = [
   './',
   './index.html',
