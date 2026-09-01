@@ -7,8 +7,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="CIS Data Foundations">
-<title>CIS Data Foundations — Offline Trainer</title>
+<meta name="apple-mobile-web-app-title" content="CIS-DF Trainer">
+<title>CIS-DF Trainer — Offline</title>
 <link rel="manifest" href="./manifest.json">
 <link rel="apple-touch-icon" href="./icon-192.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F1720'/%3E%3Cg stroke='%2335B7C4' stroke-width='4' fill='none'%3E%3Ccircle cx='32' cy='17' r='7'/%3E%3Ccircle cx='17' cy='46' r='7'/%3E%3Ccircle cx='47' cy='46' r='7'/%3E%3Cpath d='M28 23 L21 40 M36 23 L43 40 M24 46 h16'/%3E%3C/g%3E%3C/svg%3E">
@@ -188,7 +188,7 @@ h2.sec{font-size:12.5px;font-weight:600;color:var(--ink-dim);margin:26px 0 10px;
 <body>
 <div class="bar">
   <button class="iconbtn" id="back" hidden aria-label="Back">‹</button>
-  <h1 id="title">CIS Data Foundations</h1>
+  <h1 id="title">CIS-DF Trainer</h1>
   <span class="sub" id="sub"></span>
   <button class="iconbtn" id="theme" aria-label="Switch theme">◐</button>
 </div>
@@ -371,7 +371,7 @@ function results(){
 function render(){
   S=null; clearTimeout(tick._t);
   backBtn.hidden=true; foot.hidden=true; subEl.textContent='';
-  titleEl.textContent='CIS Data Foundations';
+  titleEl.textContent='CIS-DF Trainer';
   const seen=Object.keys(store.seen).length, wrong=Object.keys(store.wrong).length,
         marked=Object.keys(store.marked).length;
   const spine=BANK.slice(0,60).map(q=>store.wrong[q.id]?'no':(store.seen[q.id]?'ok':''));

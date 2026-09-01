@@ -1,6 +1,6 @@
 {
-  "name": "CIS Data Foundations Trainer",
-  "short_name": "CIS Trainer",
+  "name": "CIS-DF Trainer",
+  "short_name": "CIS-DF Trainer",
   "description": "Offline study trainer for ServiceNow CIS Data Foundations.",
   "start_url": "./index.html",
   "scope": "./",
